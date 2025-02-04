@@ -15,7 +15,7 @@ app.get("/health", (c) => {
 	return c.json("ok", 200);
 });
 
-const port = 3000;
+const port = 3001;
 console.log(`Server is running on http://localhost:${port}`);
 
 serve({
